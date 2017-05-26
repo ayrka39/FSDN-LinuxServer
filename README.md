@@ -15,11 +15,11 @@ create an instance with [Amazon Lightsail Service](https://amazonlightsail.com) 
 
 ### Preparation
     
-    p.1. Download SSH private key from [here](https://lightsail.aws.amazon.com/ls/webapp/account/keys)
-    p.2. Move the key file to the local ssh folder (and rename the file, if preferred)
-    p.3. Set the file permission
+   p.1. Download SSH private key from [here](https://lightsail.aws.amazon.com/ls/webapp/account/keys)
+   p.2. Move the key file to the local ssh folder (and rename the file, if preferred)
+   p.3. Set the file permission
     `$ chmod 600 ~/path/(downloaded_key)`
-    p.4. Connect to the remote server
+   p.4. Connect to the remote server
     `$ ssh ubuntu@(your_public_ip_address) -i ~/path/(downloaded_key)`
     
 ## Configuration
