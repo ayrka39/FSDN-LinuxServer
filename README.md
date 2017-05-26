@@ -4,25 +4,23 @@
 
 This is a project of the Udacity Full Stack Web Development program, which configures Linux Ubuntu server for hosting web applications. 
 
-## setting
+## Server Information
 
 * IP address: 35.156.240.140
 * SSH port: 2200
 * App URL: http://35.156.240.140/ or http://ec2-35-156-240-140.eu-central-1.compute.amazonaws.com
 
-disclaimer: 
-
 ## Amazon Lightsail
-You are recommended to create an instance with [Amazon Lightsail Service](https://amazonlightsail.com) to get a publicly accessabible Ubuntu Linux Server.
+create an instance with [Amazon Lightsail Service](https://amazonlightsail.com) to get a publicly accessabible Ubuntu Linux Server.
 
 ### Preparation
     
     p.1. Download SSH private key from [here](https://lightsail.aws.amazon.com/ls/webapp/account/keys)
     p.2. Move the key file to the local ssh folder (and rename the file, if preferred)
     p.3. Set the file permission
-    ```$ chmod 600 ~/path/(downloaded_key)```
+    `$ chmod 600 ~/path/(downloaded_key)`
     p.4. Connect to the remote server
-    ```$ ssh ubuntu@(your_public_ip_address) -i ~/path/(downloaded_key)```
+    `$ ssh ubuntu@(your_public_ip_address) -i ~/path/(downloaded_key)`
     
 ## Configuration
 
