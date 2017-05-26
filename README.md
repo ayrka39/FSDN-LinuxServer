@@ -30,7 +30,9 @@ create an instance with [Amazon Lightsail Service](https://amazonlightsail.com) 
     `$ sudo apt-get update`
   > 2. Update Installed Packages
     `$ sudo apt-get upgrade`
-  > 3. Remove unnecessary Packages
+  > 3. Use the 'unattended-upgrade' package
+    `$ sudo dpkg-reconfigure --priority=low unattended-upgrades` 
+  > 4. Remove unnecessary Packages
     `$ sudo apt-get autoremove`
     
 ### 1. Set the FireWall
