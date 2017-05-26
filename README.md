@@ -31,7 +31,10 @@ create an instance with [Amazon Lightsail Service](https://amazonlightsail.com) 
   > 2. Update Installed Packages
     `$ sudo apt-get upgrade`
   > 3. Use the 'unattended-upgrade' package
-    `$ sudo dpkg-reconfigure --priority=low unattended-upgrades` 
+  >```
+  >   $ sudo apt-get install unattended-upgrades update-notifier-common
+  >   $ sudo dpkg-reconfigure --priority=low unattended-upgrades 
+  > ```
   > 4. Remove unnecessary Packages
     `$ sudo apt-get autoremove`
     
